@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VALIDATION FORM</title>
+    <link rel="stylesheet" href="dom.css" class="stylesheet">
+
+</head>
+
+<body>
+    <h1 id="h1">VALIDATION</h1>
+    <form id="myform" onsubmit="return showalert()">
+        <label for="na">First Name :</label>
+        <input type="text" id="na" style="margin-bottom: 20px"><br>
+        <div  id="a1" style="color: red; display: none;">First Name is required</div><br>
+        <label for="lana">Last Name :</label>
+        <input type="text" id="lana" style="margin-bottom: 20px"><br>
+        
+        <label for="ema">Email :</label>
+        <input type="email" id="ema" style="margin-bottom: 20px"><br>
+        <div  id="a2" style="color: red; display: none;">Email is required</div><br>
+        <label for="ag">Age :</label>
+        <input type="number" id="ag" style="margin-bottom: 20px"><br>
+        <div  id="a3" style="color: red; display: none;">Age is required</div><br>
+        
+
+        <button type="submit" id="click" >Ok</button>
+    </form>
+    <script src='dom.js'></script>
+</body>
+
+</html>
+
+
+
+    
+
+
+        
