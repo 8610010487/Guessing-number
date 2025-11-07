@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Shipment</title>
+    <link href="task.css" rel="stylesheet">
+</head>
+
+<body>
+    <form id="start">
+        <h1>Order Shipment</h1>
+
+        <label for="sid">Shipment ID</label><br>
+        <input type="text" id="sid" placeholder="Enter Shipment ID"><br>
+        <div id="a1" class="error">Shipment ID is required</div><br>
+
+        <label for="name">Courier Name</label><br>
+        <select id="name">
+            <option value="">--Select--</option>
+            <option value="FedEx">FedEx</option>
+            <option value="Blue Dart">Blue Dart</option>
+            <option value="DHL">DHL</option>
+            <option value="DTDC">DTDC</option>
+        </select><br>
+        <div id="a2" class="error">Courier name is required</div><br>
+
+        <label for="date">Shipment Date</label><br>
+        <input type="date" id="date"><br>
+        <div id="a3" class="error">Shipment date is required</div><br>
+
+        <label for="place">Address</label><br>
+        <input type="text" id="place" placeholder="Enter Delivery Address"><br><br>
+
+        <input type="submit" id="submit" value="Submit">
+        
+    </form>
+
+    <script src="task2.js"></script>
+</body>
+
+</html>
